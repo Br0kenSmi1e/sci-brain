@@ -38,6 +38,18 @@ When you run `/ideas` afterward, it automatically picks up the survey results an
 /ideas               ← brainstorm with that literature loaded
 ```
 
+## New to the Field?
+
+If you're learning a field from scratch, run `/overview` after `/survey`. It teaches the field through a four-act narrative: why the problem exists, what people tried and why it failed, what actually works, and what's still open. Every explanation is grounded in concrete examples and failure-driven — you understand solutions by first seeing why alternatives break.
+
+```
+/survey <topic>      ← build a literature map
+/overview <topic>    ← learn the field through a failure-driven narrative
+/ideas               ← brainstorm with that knowledge
+```
+
+At the end, it offers to generate a written summary (Typst, LaTeX, or Markdown) following the same four-act structure.
+
 ## Want It to Know Your Work?
 
 The fastest way is to add a few lines to `CLAUDE.md` (or `AGENTS.md` on other platforms):
