@@ -93,16 +93,27 @@ Show why this field exists and why the problem *cannot* be left unsolved.
 
 ### Act 2 — The Failed Attempts
 
-Walk through naive, classical, or simpler approaches — the things people tried before the field matured.
+Be **broad** — cover as many failed approaches as possible, not just a select few. The user should see the full landscape of what was tried before the field matured.
 
-For each failed approach:
+**Phase 1 — Catalog.** Compile a comprehensive numbered list of *all* failed approaches found in the survey registry and additional research. Each entry gets a one-liner: name + core intuition. The goal is breadth.
+
+**Phase 2 — Deep-dive.** Pick the most instructive failures — the ones that teach the most about why the problem is hard — and give each the full treatment:
+
 - **What it tried** — the intuition behind it
 - **Where it breaks** — a concrete example of the failure mode
 - **What it teaches** — what this failure reveals about the shape of the problem
 
-The user builds intuition for *why the problem is hard* by seeing what doesn't work. Each failure narrows the space of possible solutions, making the real solution feel inevitable.
+Briefly explain why these were chosen for the deep-dive.
 
-**Pause for questions.** After presenting the failed attempts, check comprehension:
+**Phase 3 — User choice.** After the deep-dives, invite the user to explore further:
+
+> "Any of the other approaches you'd like me to unpack?"
+
+If the user picks entries from the catalog, give them the same full treatment.
+
+The user builds intuition for *why the problem is hard* by seeing the full landscape of what doesn't work. Each failure narrows the space of possible solutions, making the real solution feel inevitable.
+
+**Pause for questions.** After all deep-dives (and any user-requested expansions) are done, check comprehension:
 
 > "Does it make sense why [approach] breaks down when [scenario]? Before we see what actually works — based on these failures, what properties would a solution need to have?"
 
